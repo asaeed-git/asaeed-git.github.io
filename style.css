@@ -14,16 +14,20 @@ header {
 
 .photo-box {
     margin: 10px auto;
-    width: 150px;
-    height: 150px;
+    width: 100px; /* Adjust width as per your preference */
+    height: 100px; /* Adjust height as per your preference */
     overflow: hidden;
     border-radius: 50%;
+    border: 3px solid #fff; /* Add a white border for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
 .photo-box img {
     width: 100%;
     height: auto;
+    display: block;
 }
+
 
 nav ul {
     list-style-type: none;
