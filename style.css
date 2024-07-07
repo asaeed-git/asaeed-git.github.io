@@ -23,9 +23,10 @@ header {
 }
 
 .photo-box img {
-    width: 5%;
+    width: 100%;
     height: auto;
     display: block;
+    max-width: 100%; /* Ensure the image is responsive */
 }
 
 
